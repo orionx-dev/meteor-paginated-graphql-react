@@ -1,6 +1,6 @@
 import React from 'react'
 import Data from './Data'
-import {graphql} from 'react-apollo'
+import {graphql} from '@apollo/client/react/hoc'
 import gql from 'graphql-tag'
 import getQueryFields from './getQueryFields'
 import {getQueryParams, getVariables} from './getParams'

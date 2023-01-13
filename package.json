@@ -1,6 +1,6 @@
 {
   "name": "meteor-paginated-graphql-react",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "main": "lib/index.js",
   "repository": "http://github.com/orionsoft/module",
   "author": "nicolaslopezj",
@@ -27,16 +27,15 @@
     "colors": "^1.1.2",
     "eslint": "^4.7.0",
     "eslint-config-orionsoft": "^1.2.1",
-    "graphql-tag": "^2.4.2",
+    "graphql-tag": "^2.12.6",
     "jest-cli": "^21.1.0",
     "less": "^2.7.2",
-    "react-apollo": "^1.4.15",
     "standard": "^10.0.3"
   },
   "peerDependencies": {
-    "graphql-tag": "^1.2.3",
-    "react": "^15.4.1",
-    "react-apollo": "^0.8.3"
+    "graphql-tag": "^2.12.6",
+    "react": "^16.8.0",
+    "@apollo/client": "^3.7.3"
   },
   "dependencies": {
     "autobind-decorator": "^2.1.0",
