@@ -1,5 +1,5 @@
 import React from 'react'
-import ErrorIcon from 'react-icons/lib/md/error'
+import { MdError } from 'react-icons/md'
 import PropTypes from 'prop-types'
 
 export default class Message extends React.Component {
@@ -12,7 +12,7 @@ export default class Message extends React.Component {
     return (
       <div className='paginated-error'>
         <div className='paginated-error-icon'>
-          <ErrorIcon />
+          <MdError />
         </div>
         <div className='paginated-error-message'>
           {this.props.message}
